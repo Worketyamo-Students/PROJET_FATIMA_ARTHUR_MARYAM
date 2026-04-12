@@ -3,9 +3,166 @@
     --paragraph-color:#475569;
     --btn-color:#2563EB;
     --contenaire-color:#581C87BF;
+    --primary-blue: #2563eb;
+    --text-dark: #1e293b;
+    --text-light: #64748b;
     /* couleur du degrade */
     --primary-color:#312E81;
     --secondary-color:#1E40AF;
     --third-color:#1E3A8A;
     --fourth-color:#701A75;
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 15px 5%;
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--text-dark);
+    letter-spacing: -1px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+}
+
+.nav-links li {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--title-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li::after {
+    content: ' \2304'; 
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.nav-links li:last-child::after {
+    content: '';
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: var(--primary-blue);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-signup {
+    background-color: var(--primary-blue);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cont {
+    margin-top: 5.0rem;
+    padding: 0 5.0rem;
+}
+
+.hero-text {
+    flex: 1; 
+}
+
+.texte1 {
+    font-size: 7.2rem;
+    line-height: 1.1;
+    color: #0f172a;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.texte2 {
+    font-size: 1.8rem;
+    color: #64748b;
+    margin-bottom: 3rem;
+}
+
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    padding: 8px 8px 8px 15px;
+    border-radius: 10px;
+    max-width: 450px;
+    margin-bottom: 4rem;
+}
+
+.input-wrapper input {
+    padding: 10px;
+    flex: 1;
+    font-size: 1.6rem;
+}
+
+.btn-signup {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.images {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #f1f5f9; 
+    padding: 15px 25px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.images img {
+    height: 25px;
+    filter: grayscale(1); 
+    opacity: 0.6;
+}
+
+
+.hero-image {
+    width: 70.0rem;
+    height: 39.9rem;
+
+
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
