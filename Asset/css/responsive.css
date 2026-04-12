@@ -145,3 +145,81 @@
     transform: translateY(-5px);
 }
 }
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+@media (max-width: 900px) {
+
+  #tool {
+    height: auto;
+    padding-bottom: 4rem;
+    overflow: hidden;
+  }
+
+  .tool-container {
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+
+  .tool-texte {
+    margin-top: 4rem;
+    width: 100%;
+  }
+
+  .tool-texte h1 {
+    font-size: 3.2rem;
+  }
+
+  .tool-texte p {
+    font-size: 1.6rem;
+  }
+
+  .image-tool {
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    margin-top: 2rem;
+  }
+
+  .image-tool img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 100%;
+    max-width: 35rem;            
+    height: 35rem;
+    object-fit: contain;        
+    right: auto;
+    margin-top: 0;
+    border: none;                
+  }
+
+  #baniere {
+    padding: 2rem 1.5rem;
+  }
+
+  .baniere {
+    min-height: 48.6rem;
+    align-items: flex-end;
+  }
+
+  .contenu {
+    width: 100%;
+    margin-left: 0;
+    padding: 2rem 2.4rem;
+  }
+
+  .contenu h2 {
+    font-size: 3.2rem;
+  }
+
+  .contenu p {
+    font-size: 1.5rem;
+  }
+
+  .contenu a {
+    font-size: 1.5rem;
+  }
+}
