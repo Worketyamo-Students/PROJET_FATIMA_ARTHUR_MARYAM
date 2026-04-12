@@ -11,8 +11,6 @@
     --secondary-color:#1E40AF;
     --third-color:#1E3A8A;
     --fourth-color:#701A75;
-    --com-color:#2563EB;
-    --white-col:rgb(255, 255, 255);
 }
 .main-header {
     display: flex;
@@ -170,94 +168,38 @@
 }
 
 
-#improve{
+#working{
+    margin: 5rem 8rem;
     display: flex;
-    height: 40.6rem;
-    gap: 8.0rem;
-    margin: 8.0rem 8.0rem;
+    gap: 4rem;
 }
 
-aside{
+#working > aside > .btn2{
+    margin-right: 41rem;
+}
+
+.images{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:start;
-    gap: 2.4rem;
-    padding-block:.4rem;
-    margin-block:2.05rem;
-
+    gap: 1rem;
+    flex: 2;
 }
 
-aside > h1{
-    font-size: 5.6rem;
-    font-family:Roboto ;
-    font-weight:800 ;
-    font-style:extra bold;
-    line-height: 110px;
-    color:#0F172A; 
+.images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
 }
 
-.sidebar{
-    height:4.5rem;
-    display: flex;
-    margin-right: 5rem;
+#working > aside{
+    height: 30rem;
+    margin-top: 10rem;
+    gap: 1rem;
+    flex: 1;
 }
 
-.sidebar > p{
-    padding: 1.5rem 5.0rem;
-    height: 4.8rem;
-    border: 0.1px solid ;
-    font-size: 1.4rem;
-    font-family: Roboto;
-    font-weight: 600;
-}
-
-#improve > p{
-    font-size: 1.8rem;
-    font-family:Roboto ;
-    font-weight:400 ;
-    font-style:Regular;
-    line-height: 110%;
-    color:#0F172A; 
-}
-
-.btn2 > img:hover{
-    color: #0d111f;
-    cursor: grabbing;
-    box-shadow: 1px 1px 0.4rem #8da4e4;
-    transform: translateY(-1px);
-}
-
-.sidebar > p:hover{
-    background-color: rgb(228, 228, 228);
-}
-
-.btn2 > button{
-    font-size: 1.6rem;
-    font-family:Roboto ;
-    font-weight:500 ;
-    font-style:bold;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color: nowrap;
-    color:var(--com-color); 
-    background-color:var(--white-col);
-}
-
-.btn2{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 1.6rem;
-    height: 4.8rem;
-    background-color:var(--white-col);
+#working > .btn2{
+    display: block;
     padding-right: 03rem;
     margin-right: 30rem;
-
-}
-
-#improve >  img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }

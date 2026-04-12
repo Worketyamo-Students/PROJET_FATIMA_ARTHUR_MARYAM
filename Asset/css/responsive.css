@@ -98,30 +98,7 @@
   }
 
 
-  #improve{
-    display: flex;
-    flex-direction: column;
-    height: 72.8rem;
-    padding: 1.6rem;
-    margin: 1rem;
-    gap: 3.2rem;
-}
-
- 
-#improve > img{
-    max-width: 100%;
-    object-fit: contain;
-}
-
-aside > h1{
-    white-space: normal;
-    margin-right: 15rem;
-}
-.btn2 > button{
-    white-space: nowrap;
-}
-
-#working{
+  #working{
     margin: 5rem 1rem;
     display: flex;
     flex-direction: column;
