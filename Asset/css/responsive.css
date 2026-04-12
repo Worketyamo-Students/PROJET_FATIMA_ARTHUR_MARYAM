@@ -97,4 +97,51 @@
     height: auto;
   }
 
+
+  #working{
+    margin: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.images{
+    display: flex;
+    gap: 1rem;
+    flex: 2;padding-inline: 2rem;
+    margin-top: 3rem;
+}
+
+#working > aside{
+    height: 20rem;
+    margin-top: 4rem;
+    gap: 1rem;
+    flex: 1;
+}
+
+#working > .btn2{
+    display: none;
+}
+
+ aside > p{
+    font-size: 1.8rem;
+}
+
+ aside > h1{
+    font-size: 4rem;
+    gap: 0;
+    white-space: normal;
+    line-height: 1.8;
+}
+
+#try{
+    display: none;
+}
+
+.btn:hover{
+    cursor: grabbing;
+    box-shadow: 5px 5px 1rem #244292;
+    transform: translateY(-5px);
+}
+
 }

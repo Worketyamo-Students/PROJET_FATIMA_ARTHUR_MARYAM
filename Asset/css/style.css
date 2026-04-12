@@ -166,3 +166,40 @@
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
+
+
+#working{
+    margin: 5rem 8rem;
+    display: flex;
+    gap: 4rem;
+}
+
+#working > aside > .btn2{
+    margin-right: 41rem;
+}
+
+.images{
+    display: flex;
+    gap: 1rem;
+    flex: 2;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+#working > aside{
+    height: 30rem;
+    margin-top: 10rem;
+    gap: 1rem;
+    flex: 1;
+}
+
+#working > .btn2{
+    display: block;
+    padding-right: 03rem;
+    margin-right: 30rem;
+}
