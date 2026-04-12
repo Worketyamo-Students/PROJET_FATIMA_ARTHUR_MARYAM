@@ -3,9 +3,74 @@
     --paragraph-color:#475569;
     --btn-color:#2563EB;
     --contenaire-color:#581C87BF;
+    --primary-blue: #2563eb;
+    --text-dark: #1e293b;
+    --text-light: #64748b;
     /* couleur du degrade */
     --primary-color:#312E81;
     --secondary-color:#1E40AF;
     --third-color:#1E3A8A;
     --fourth-color:#701A75;
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 15px 5%;
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--text-dark);
+    letter-spacing: -1px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+}
+
+.nav-links li {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--title-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li::after {
+    content: ' \2304'; 
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.nav-links li:last-child::after {
+    content: '';
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: var(--primary-blue);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-signup {
+    background-color: var(--primary-blue);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
 }
