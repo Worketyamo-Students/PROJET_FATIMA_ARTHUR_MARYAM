@@ -263,6 +263,49 @@ aside p{
     position: absolute;
     right: 1rem;
 }
+/* section tool  */
+#tool{
+    height: 50rem;
+}
+.tool-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+.tool-texte{
+    margin-top: 10rem;
+    font-family: 'roboto', sans-serif;
+    width: 66rem;
+}
+.tool-texte  h1{
+    font-size: 5.6rem;
+    color: var(--title-color);
+}
+.tool-texte p{
+    font-size: 1.8rem;
+    color: var(--paragraph-color);
+    margin-top: 2rem;
+}
+.tool-texte button{
+    color: var(--btn-color);
+    font-size: 1.6rem;
+    background-color: transparent;
+    margin: 3rem;
+}
+.tool-texte svg{
+    margin-left: 1rem;
+    position: absolute;
+    left: 15.7%;
+}
+.image-tool{
+    position: relative;
+
+}
+.image-tool img{
+    margin-top: 2rem;
+    position: absolute;
+    right: 1rem;
+}
 /*  Section bannière */
 #baniere {
   padding: 4rem 7rem;
@@ -325,7 +368,6 @@ aside p{
     text-decoration: none;
     font-family: 'roboto', sans-serif;
 }
-
 
 #community{
     height: 39.2rem;
